@@ -1,0 +1,31 @@
+body {
+  color: orange;
+}
+
+bodytest {
+  background: red;
+  color: blue;
+}
+
+
+.btn--twitter {
+  background-color: #55acee;
+}
+
+.btn--facebook {
+  background-color: #3a5795;
+}
+
+.btn--send-mail {
+  background-color: #C25E30;
+}
+
+
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+ }
+ .box {
+    @include sizes(500px, 50px);
+ }
+ 

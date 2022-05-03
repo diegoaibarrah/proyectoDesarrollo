@@ -1,0 +1,45 @@
+.nav__logo{
+
+    margin: 0.7rem;
+}
+
+.nav-link--botton{
+
+    background-color: orangered;
+    color: white;
+    margin: 2rem;
+    padding: 0.5rem 1rem;
+    display: block;
+    border-radius: 7px;
+    
+}
+
+.banner__hazte{
+    overflow: hidden;
+    width: 700px;
+    height: 100%;
+    margin-left: 500px;
+    margin-top: -550px;
+    max-width: 100%;
+    padding: 1rem
+    
+}
+    
+.main__personas--jubilados{
+    overflow: hidden;
+    width: 550px;
+    height: 350px;
+    margin: 50px;
+    margin-top: -335px;
+    }
+
+
+.main__personas--text{
+        justify-content: flex-end;
+        margin: 30px;
+        text-justify:auto;
+        font-size: 20px;
+        text-align: justify;
+        margin-left: 700px;
+        }
+
