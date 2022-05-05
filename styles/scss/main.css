@@ -1,3 +1,7 @@
+.nav__logo{
+
+  margin: 20px;
+}
 body {
   color: orange;
 }
@@ -7,7 +11,45 @@ bodytest {
   color: blue;
 }
 
+.slider__img {
+  height: auto
+}
 
+.banner {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.banner--row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner--div {
+  width: auto;
+}
+
+.banner--img {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+/*Creamos el bucle para usar los valores del mapa*/
 .btn--twitter {
   background-color: #55acee;
 }
@@ -19,13 +61,4 @@ bodytest {
 .btn--send-mail {
   background-color: #C25E30;
 }
-
-
-@mixin sizes($width, $height) {
-    height: $height;
-    width: $width;
- }
- .box {
-    @include sizes(500px, 50px);
- }
- 
+/*# sourceMappingURL=main.css.map */

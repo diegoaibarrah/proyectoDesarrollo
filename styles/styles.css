@@ -1,6 +1,6 @@
 .nav__logo{
 
-    margin: 0.7rem;
+    margin: 20px;
 }
 
 .nav-link--botton{
@@ -16,7 +16,7 @@
 
 .banner__hazte{
     overflow: hidden;
-    width: 700px;
+    width: max-content
     height: 100%;
     margin-left: 500px;
     margin-top: -550px;

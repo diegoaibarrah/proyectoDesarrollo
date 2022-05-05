@@ -5,6 +5,28 @@ body{
         color: blue;
     }
 }
+.slider__img{
+    height: auto
+}
+.banner{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.banner--row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.banner--div{
+    width: auto;
+}
+.banner--img{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
 
 $redes: ( /*Declaramos nuestro mapa*/
         twitter: #55acee,
